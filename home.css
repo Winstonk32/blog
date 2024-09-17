@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    flex: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* Header */
+header nav {
+    float: right;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 3rem 0;
+   
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ece9e9;
+    text-decoration: none;
+}
+
+header .logo {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+
+/* main Section */
+.main {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 3rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Featured Posts */
+.featured-posts {
+    padding: 50px 0;
+}
+
+.featured-posts h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6347;
+}
+
+/* Newsletter */
+.newsletter {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Latest Posts */
+.latest-posts {
+    padding: 50px 0;
+}
+
+.latest-posts h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
